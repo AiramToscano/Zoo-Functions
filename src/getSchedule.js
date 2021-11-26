@@ -61,6 +61,6 @@ function getSchedule(scheduleTarget) {
   return semParametro(scheduleTarget);
 }
 
-console.log(getSchedule('Tuesday'));
+// console.log(getSchedule('Tuesday'));
 
 module.exports = getSchedule;
