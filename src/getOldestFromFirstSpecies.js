@@ -8,7 +8,7 @@ function getOldestFromFirstSpecies(id) {
     .reduce((maior, idade) => {
       if (maior.age > idade.age) return maior;
       return idade;
-    });// utilizo o reduce para me retornar o meu objeto com idade mais velha.
+    });// utilizo o reduce para me retornar o meu objeto com o parametro idade mais velha.
     // como a saida me pede em array, utilizo template literals para sair na forma que eu quero.
   return [`${encontraAninal.name}`, `${encontraAninal.sex}`, encontraAninal.age];
 }
