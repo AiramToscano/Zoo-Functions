@@ -1,7 +1,7 @@
 # Zoo-Functions
 
 
-# Project Playground-Functions
+# Project Zoo-Functions
 ### _A [Trybe](https://www.betrybe.com/) Project_
 
 
