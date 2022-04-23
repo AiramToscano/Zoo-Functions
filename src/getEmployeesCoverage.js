@@ -85,6 +85,5 @@ function getEmployeesCoverage(parametro) {
 //  console.log(getEmployeesCoverage('c5b83cb3-a451-49e2-ac45-ff3f54fbe7e1'));
 //  console.log(verifcId1({ name: 'Spr' }))
 //  console.log(getLoc({ name: 'Elser' }));
-// console.log(Propet({ name: 'Elser' }))
-
+console.log(semParametro());
 module.exports = getEmployeesCoverage;

@@ -12,6 +12,5 @@ function getOldestFromFirstSpecies(id) {
     // como a saida me pede em array, utilizo template literals para sair na forma que eu quero.
   return [`${encontraAninal.name}`, `${encontraAninal.sex}`, encontraAninal.age];
 }
-
 // console.log(getOldestFromFirstSpecies('c5b83cb3-a451-49e2-ac45-ff3f54fbe7e1'));
 module.exports = getOldestFromFirstSpecies;

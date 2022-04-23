@@ -10,10 +10,11 @@ const animalGet = (scheduleTarget) => {
 const dayGet = (scheduleTarget) => {
   const animaisDay6 = data.species.filter((name1) => name1.availability[0] === scheduleTarget
       || name1.availability[1] === scheduleTarget || name1.availability[2] === scheduleTarget
-      || name1.availability[3] === scheduleTarget || name1.availability[4] === scheduleTarget)
+      || name1.availability[3] === scheduleTarget)
     .map((array) => `${array.name}`);
   return animaisDay6;
 };
+
 // função getDay recebe um parametro de dia da semana, e me retorna um objeto com a
 // hora oficial de abertura e saida e os animais disponiveis naquele dia.
 // caso seja domingo, me retorna que o zoo ta fechado.
@@ -73,5 +74,5 @@ function getSchedule(scheduleTarget) {
 // na linha 70 ele me retorna meu objeto agenda da semana se todas minhas condiçoes passadas forem falsas
 // estava com dificuldades de enteder a logica, mas com ajuda de colegas fui capaz de solucionar.
 //  console.log(getSchedule('lions'));
-
+// console.log(semParametro())
 module.exports = getSchedule;
